@@ -4,25 +4,23 @@ This is a simple Java-based backend mini-project developed as part of the **Java
 
 ---
 
-## 📌 Features
+## Features
 
-- ✅ Console-based email input
-- 🔐 Secure 6-digit OTP generation
-- 📩 Simulated email sending (printed to terminal)
-- 🧪 OTP verification logic
-- 🧑‍💻 Basic in-memory user data simulation (no real database)
+-  Console-based email input
+-  Secure 6-digit OTP generation
+-  Simulated email sending (printed to terminal)
+-  OTP verification logic
+-  Basic in-memory user data simulation (no real database)
 
----
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Java 17
 - Gitpod (Cloud IDE)
 - No frameworks (pure Java)
 
----
 
-## 🚀 How to Run
+## How to Run
 
 1. **Clone the Repository**
 ```bash
