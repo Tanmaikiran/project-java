@@ -1,17 +1,16 @@
-package backend;
-
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
 
 public class Database {
-    private Set<String> emails = new HashSet<>();
+    private static ArrayList<User> users = new ArrayList<>();
 
-    public boolean userExists(String email) {
-        return emails.contains(email);
+    public static void addUser(User user) {
+        users.add(user);
     }
 
-    public void saveUser(User user) {
-        emails.add(user.getEmail());
-        System.out.println("Saved user: " + user.getEmail());
+    public static void printAllUsers() {
+        System.out.println("\n📋 Registered Users:");
+        for (User user : users) {
+            System.out.println("- " + user.getEmail());
+        }
     }
 }
